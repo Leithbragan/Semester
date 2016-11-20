@@ -1,0 +1,108 @@
+68686  2016-11-20 16:15:23,573 TRACE           tatar.tourism.mail.EmailSender  - The message to be sent:<html>
+<body>
+Приветствую Zuzyk23,
+<br>
+Вы зарегестрировались в нашем приложении. Пожалуйста не забудьте ваш пароль <p style='color:green;'>11111</p>
+<br>
+Чтобы подтвердить ваш аккаунт, пожалуйста пройдите <a href="http://localhost:9967/tourismapp/confirm?uuid=60f2b87d-81e6-4012-b321-ce0018be7fbc">по ссылке</a>
+<br>
+С уважением, команда Tatarstan Tourism<br/>
+</body>
+</html>
+68696  2016-11-20 16:15:23,583 TRACE              tatar.tourism.mail.MailUtil  - App is executed in folder C:\Users\Chameleon\Семестровка\Semester
+68697  2016-11-20 16:15:23,584 TRACE              tatar.tourism.mail.MailUtil  - Properties are located at /C:/Users/Chameleon/Семестровка/Semester/target/vazilon/WEB-INF/classes/emailconfig.properties
+68697  2016-11-20 16:15:23,584 TRACE              tatar.tourism.mail.MailUtil  - Getting properties
+68709  2016-11-20 16:15:23,596 TRACE              tatar.tourism.mail.MailUtil  - Setting up smtp session
+68710  2016-11-20 16:15:23,597 TRACE              tatar.tourism.mail.MailUtil  - Formatting the new message
+69051  2016-11-20 16:15:23,938 TRACE              tatar.tourism.mail.MailUtil  - Sending message
+73478  2016-11-20 16:15:28,365 ERROR              tatar.tourism.mail.MailUtil  - Message si not sent due to 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor l135sm4395066lfe.10 - gsmtp
+
+214567 2016-11-20 16:17:49,454 TRACE           tatar.tourism.mail.EmailSender  - The message to be sent:<html>
+<body>
+Приветствую 1,
+<br>
+Вы зарегестрировались в нашем приложении. Пожалуйста не забудьте ваш пароль <p style='color:green;'>11111</p>
+<br>
+Чтобы подтвердить ваш аккаунт, пожалуйста пройдите <a href="http://localhost:9967/tourismapp/confirm?uuid=8691c985-817a-4d3a-9d7b-6a54c6100d65">по ссылке</a>
+<br>
+С уважением, команда Tatarstan Tourism<br/>
+</body>
+</html>
+214568 2016-11-20 16:17:49,455 TRACE              tatar.tourism.mail.MailUtil  - App is executed in folder C:\Users\Chameleon\Семестровка\Semester
+214568 2016-11-20 16:17:49,455 TRACE              tatar.tourism.mail.MailUtil  - Properties are located at /C:/Users/Chameleon/Семестровка/Semester/target/vazilon/WEB-INF/classes/emailconfig.properties
+214568 2016-11-20 16:17:49,455 TRACE              tatar.tourism.mail.MailUtil  - Getting properties
+214583 2016-11-20 16:17:49,470 TRACE              tatar.tourism.mail.MailUtil  - Setting up smtp session
+214588 2016-11-20 16:17:49,475 TRACE              tatar.tourism.mail.MailUtil  - Formatting the new message
+214588 2016-11-20 16:17:49,475 TRACE              tatar.tourism.mail.MailUtil  - Sending message
+217725 2016-11-20 16:17:52,612 ERROR              tatar.tourism.mail.MailUtil  - Message si not sent due to 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor z2sm4414144lja.10 - gsmtp
+
+21328  2016-11-20 16:21:43,034 TRACE           tatar.tourism.mail.EmailSender  - The message to be sent:<html>
+<body>
+Приветствую 11,
+<br>
+Вы зарегестрировались в нашем приложении. Пожалуйста не забудьте ваш пароль <p style='color:green;'>11111</p>
+<br>
+Чтобы подтвердить ваш аккаунт, пожалуйста пройдите <a href="http://localhost:9967/tourismapp/confirm?uuid=fe641492-f10d-41cf-a1d2-5650e9e33ca0">по ссылке</a>
+<br>
+С уважением, команда Tatarstan Tourism<br/>
+</body>
+</html>
+21336  2016-11-20 16:21:43,042 TRACE              tatar.tourism.mail.MailUtil  - App is executed in folder C:\Users\Chameleon\Семестровка\Semester
+21337  2016-11-20 16:21:43,043 TRACE              tatar.tourism.mail.MailUtil  - Properties are located at /C:/Users/Chameleon/Семестровка/Semester/target/vazilon/WEB-INF/classes/emailconfig.properties
+21337  2016-11-20 16:21:43,043 TRACE              tatar.tourism.mail.MailUtil  - Getting properties
+21350  2016-11-20 16:21:43,056 TRACE              tatar.tourism.mail.MailUtil  - Setting up smtp session
+21351  2016-11-20 16:21:43,057 TRACE              tatar.tourism.mail.MailUtil  - Formatting the new message
+21381  2016-11-20 16:21:43,087 TRACE              tatar.tourism.mail.MailUtil  - Sending message
+25603  2016-11-20 16:21:47,309 TRACE              tatar.tourism.mail.MailUtil  - Message successfully sent
+67141  2016-11-20 16:24:31,426 TRACE           tatar.tourism.mail.EmailSender  - The message to be sent:<html>
+<body>
+Здравствуйте 11,
+<br>
+вы только что подтвердили свой аккаунт. Теперь вы можете полноценно пользоваться сайтом.
+<br>
+Regards, Tatarstan Tourism team<br/>
+</body>
+</html>
+67154  2016-11-20 16:24:31,439 TRACE              tatar.tourism.mail.MailUtil  - App is executed in folder C:\Users\Chameleon\Семестровка\Semester
+67155  2016-11-20 16:24:31,440 TRACE              tatar.tourism.mail.MailUtil  - Properties are located at /C:/Users/Chameleon/Семестровка/Semester/target/vazilon/WEB-INF/classes/emailconfig.properties
+67155  2016-11-20 16:24:31,440 TRACE              tatar.tourism.mail.MailUtil  - Getting properties
+67175  2016-11-20 16:24:31,460 TRACE              tatar.tourism.mail.MailUtil  - Setting up smtp session
+67175  2016-11-20 16:24:31,460 TRACE              tatar.tourism.mail.MailUtil  - Formatting the new message
+67220  2016-11-20 16:24:31,505 TRACE              tatar.tourism.mail.MailUtil  - Sending message
+71078  2016-11-20 16:24:35,363 TRACE              tatar.tourism.mail.MailUtil  - Message successfully sent
+26799  2016-11-20 16:26:52,072 TRACE           tatar.tourism.mail.EmailSender  - The message to be sent:<html>
+<body>
+Приветствую 12,
+<br>
+Вы зарегестрировались в нашем приложении. Пожалуйста не забудьте ваш пароль <p style='color:green;'>121212</p>
+<br>
+Чтобы подтвердить ваш аккаунт, пожалуйста пройдите <a href="http://localhost:8090/vazilon/confirm?uuid=9848c0cf-69fc-41a6-a843-46e1f6f2571a">по ссылке</a>
+<br>
+С уважением, команда Tatarstan Tourism<br/>
+</body>
+</html>
+26808  2016-11-20 16:26:52,081 TRACE              tatar.tourism.mail.MailUtil  - App is executed in folder C:\Users\Chameleon\Семестровка\Semester
+26808  2016-11-20 16:26:52,081 TRACE              tatar.tourism.mail.MailUtil  - Properties are located at /C:/Users/Chameleon/Семестровка/Semester/target/vazilon/WEB-INF/classes/emailconfig.properties
+26808  2016-11-20 16:26:52,081 TRACE              tatar.tourism.mail.MailUtil  - Getting properties
+26827  2016-11-20 16:26:52,100 TRACE              tatar.tourism.mail.MailUtil  - Setting up smtp session
+26832  2016-11-20 16:26:52,105 TRACE              tatar.tourism.mail.MailUtil  - Formatting the new message
+26878  2016-11-20 16:26:52,151 TRACE              tatar.tourism.mail.MailUtil  - Sending message
+30824  2016-11-20 16:26:56,097 TRACE              tatar.tourism.mail.MailUtil  - Message successfully sent
+53447  2016-11-20 16:27:18,720 TRACE           tatar.tourism.mail.EmailSender  - The message to be sent:<html>
+<body>
+Здравствуйте 12,
+<br>
+вы только что подтвердили свой аккаунт. Теперь вы можете полноценно пользоваться сайтом.
+<br>
+Regards, Tatarstan Tourism team<br/>
+</body>
+</html>
+53448  2016-11-20 16:27:18,721 TRACE              tatar.tourism.mail.MailUtil  - App is executed in folder C:\Users\Chameleon\Семестровка\Semester
+53448  2016-11-20 16:27:18,721 TRACE              tatar.tourism.mail.MailUtil  - Properties are located at /C:/Users/Chameleon/Семестровка/Semester/target/vazilon/WEB-INF/classes/emailconfig.properties
+53449  2016-11-20 16:27:18,722 TRACE              tatar.tourism.mail.MailUtil  - Getting properties
+53455  2016-11-20 16:27:18,728 TRACE              tatar.tourism.mail.MailUtil  - Setting up smtp session
+53455  2016-11-20 16:27:18,728 TRACE              tatar.tourism.mail.MailUtil  - Formatting the new message
+53455  2016-11-20 16:27:18,728 TRACE              tatar.tourism.mail.MailUtil  - Sending message
+56845  2016-11-20 16:27:22,118 TRACE              tatar.tourism.mail.MailUtil  - Message successfully sent
