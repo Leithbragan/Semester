@@ -10,7 +10,7 @@
     <title></title>
 </head>
 <body>
-<div class="col-md-5"><img src="images/${book.id}.jpg" class="img img-responsive"></div>
+<div class="col-md-5"><img src="images/${book.id}.jpg" class="img img-responsive"><a class="link-content" href="library">К библиотеке</a></div>
 <div class="col-md-5">
     <dl class="dl-horizontal item-content">
         <dt><fmt:message key="book.characteristic.name"/>: </dt>

@@ -23,10 +23,6 @@ public class BasketServlet extends HttpServlet {
         HttpSession session = req.getSession(true);
         Purchases books;
         books = (Purchases) session.getAttribute("purchases");
-        String message = "Покупок нет";
-        if (books == null) {
-            req.setAttribute("message", message);
-        }
         req.setAttribute("books", books);
         getServletContext().getRequestDispatcher("/basket.jsp").forward(req, resp);
     }
