@@ -1,8 +1,5 @@
 package tatar.tourism.pojo;
 
-/**
- * Created by Ilya Evlampiev on 07.11.2015.
- */
 public class AverageCountPair {
     private Float average;
     private Integer count;

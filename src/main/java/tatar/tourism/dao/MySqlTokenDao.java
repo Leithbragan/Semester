@@ -10,9 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Date;
 
-/**
- * Created by Ilya Evlampiev on 02.11.2015.
- */
+
 public class MySqlTokenDao extends MySqlDao implements TokenDao {
     @Override
     public void create(Token token) {
@@ -26,11 +24,9 @@ public class MySqlTokenDao extends MySqlDao implements TokenDao {
             stmt.setDate(2, new java.sql.Date(token.getDeleteDate().getTime()));
             stmt.setInt(3, token.getUser().getDatabaseId());
             stmt.execute();
-            //log.trace("Addition to notes by user " + note.getUser().getUsername());
             stmt.close();
         } catch (SQLException e) {
             e.printStackTrace();
-            //log.error("Addition of new comment failed " + e.getLocalizedMessage());
         } finally {
             try {
                 stmt.close();
@@ -71,11 +67,7 @@ public class MySqlTokenDao extends MySqlDao implements TokenDao {
                     case TRAVELAGENCY:
                         s = new BusDriver();
                         break;
-                    //default:
-                    //    s = new User();
-                    //    break;
                 }
-                ;
             s.setDatabaseId(rs.getInt("id"));
             s.setUsername(rs.getString("username"));
             s.setPasswordHash(rs.getString("password"));
@@ -114,11 +106,9 @@ public class MySqlTokenDao extends MySqlDao implements TokenDao {
             stmt.setString(1, token.getUuid());
 
             stmt.execute();
-            //log.trace("Addition to notes by user " + note.getUser().getUsername());
             stmt.close();
         } catch (SQLException e) {
             e.printStackTrace();
-            //log.error("Addition of new comment failed " + e.getLocalizedMessage());
         } finally {
             try {
                 stmt.close();

@@ -20,9 +20,6 @@ import java.io.IOException;
 import java.security.NoSuchAlgorithmException;
 import java.util.Calendar;
 
-/**
- * Created by Ilya Evlampiev on 31.10.2015.
- */
 @WebServlet("/register")
 public class RegisterServlet extends HttpServlet {
     static Logger log = Logger.getLogger(LoginServlet.class);

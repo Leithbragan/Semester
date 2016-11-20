@@ -18,9 +18,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Ilya Evlampiev on 27.10.2015.
- */
 @WebServlet("/excursionPlans")
 public class ExcursionPlansServlet extends HttpServlet {
     static Logger log = Logger.getLogger(ExcursionPlansServlet.class);

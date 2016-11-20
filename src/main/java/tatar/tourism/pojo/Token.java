@@ -2,9 +2,7 @@ package tatar.tourism.pojo;
 
 import java.util.Date;
 
-/**
- * Created by Ilya Evlampiev on 02.11.2015.
- */
+
 public class Token {
     private static final long serialVersionUID = 1L;
 

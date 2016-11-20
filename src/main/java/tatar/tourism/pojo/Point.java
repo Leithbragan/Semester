@@ -2,9 +2,6 @@ package tatar.tourism.pojo;
 
 import java.io.Serializable;
 
-/**
- * Created by Ilya Evlampiev on 20.10.2015.
- */
 public class Point implements Serializable {
 
     private static final long serialVersionUID = 1L;

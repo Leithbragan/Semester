@@ -20,9 +20,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-/**
- * Created by Ilya Evlampiev on 27.10.2015.
- */
 @WebServlet("/excursionTrips")
 public class ExcursionTripsServlet  extends HttpServlet {
     private static final SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");

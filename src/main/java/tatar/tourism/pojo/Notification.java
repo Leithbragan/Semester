@@ -4,9 +4,6 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 import java.util.concurrent.SynchronousQueue;
 
-/**
- * Created by Ilya Evlampiev on 05.11.2015.
- */
 public class Notification {
     private int databaseId;
     private User addressee;

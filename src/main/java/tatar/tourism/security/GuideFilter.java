@@ -9,9 +9,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Created by Ilya Evlampiev on 27.10.2015.
- */
 @WebFilter(filterName = "guideFilter", urlPatterns = {"/executionPlans/*"})
 public class GuideFilter implements Filter {
 

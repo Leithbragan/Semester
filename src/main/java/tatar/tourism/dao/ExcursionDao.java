@@ -5,9 +5,6 @@ import tatar.tourism.pojo.*;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * Created by Ilya Evlampiev on 02.11.2015.
- */
 public interface ExcursionDao {
     /** Создает новую запись и соответствующий ей объект */
     public void create(Excursion excursion);

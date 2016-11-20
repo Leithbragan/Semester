@@ -2,9 +2,6 @@ package tatar.tourism.pojo;
 
 import java.util.LinkedList;
 
-/**
- * Created by Ilya Evlampiev on 07.11.2015.
- */
 public class Route {
     private int id;
     private LinkedList<Point> points;

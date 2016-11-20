@@ -10,9 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Created by Ilya Evlampiev on 26.10.2015.
- */
 @WebServlet("/logout")
 public class LogoutServlet extends HttpServlet {
     static Logger log = Logger.getLogger(LoginServlet.class);

@@ -14,11 +14,15 @@
     <div class="nav navbar-nav">
         <ul class="nav nav-tabs nav-justified">
             <li><a class="link-content" href="#all_books" data-toggle="tab"><fmt:message key="book.gener.all"/></a></li>
-            <li><a class="link-content" href="#Комедия" data-toggle="tab"><fmt:message key="book.gener.comedy"/></a></li>
-            <li><a class="link-content" href="#Фантастика" data-toggle="tab"><fmt:message key="book.gener.fantastic"/></a></li>
+            <li><a class="link-content" href="#Комедия" data-toggle="tab"><fmt:message key="book.gener.comedy"/></a>
+            </li>
+            <li><a class="link-content" href="#Фантастика" data-toggle="tab"><fmt:message
+                    key="book.gener.fantastic"/></a></li>
             <li><a class="link-content" href="#Роман" data-toggle="tab"><fmt:message key="book.gener.novel"/></a></li>
-            <li><a class="link-content" href="#Антиутопия" data-toggle="tab"><fmt:message key="book.gener.dystopia"/></a></li>
-            <li><a class="link-content" href="#Этногенез" data-toggle="tab"><fmt:message key="book.gener.etno"/></a></li>
+            <li><a class="link-content" href="#Антиутопия" data-toggle="tab"><fmt:message
+                    key="book.gener.dystopia"/></a></li>
+            <li><a class="link-content" href="#Этногенез" data-toggle="tab"><fmt:message key="book.gener.etno"/></a>
+            </li>
         </ul>
         <div class="tab-content">
             <div class="tab-pane active" id="all_books">
@@ -27,12 +31,21 @@
                     <table class="table table-condensed table table-bordered">
                         <c:forEach var="book" items="${book}">
                             <tr>
-                                <td class="image-content"><img src="images/${book.id}.jpg" class="img img-responsive"> </td>
-                                <td class="text-content"><a class="link-content" href="/vazilon/book_page?id=${book.id}">${book.name}</a><h5>${book.description}</h5></td>
-                                <div width="200px" class=""><td class="text-content">  ${book.author}</td></div>
-                                <td class="text-content"><a class="link-content" href="#${book.gener}" data-toggle="tab">${book.gener}</a></td>
+                                <td class="image-content"><img src="images/${book.id}.jpg" class="img img-responsive">
+                                </td>
+                                <td class="text-content"><a class="link-content"
+                                                            href="/vazilon/book_page?id=${book.id}">${book.name}</a>
+                                    <h5>${book.description}</h5></td>
+                                <div width="200px" class="">
+                                    <td class="text-content"> ${book.author}</td>
+                                </div>
+                                <td class="text-content"><a class="link-content" href="#${book.gener}"
+                                                            data-toggle="tab">${book.gener}</a></td>
                                 <td class="text-content">${book.price} рублей</td>
-                                <td><a class="btn btn-default" id="${book.id}" type="submit">Купить</a></td>
+                                <td>
+                                    <button class="btn btn-default" id="${book.id}" type="submit"
+                                            onclick="append(${book.id})"><fmt:message key="button.buy"/></button>
+                                </td>
                             </tr>
                         </c:forEach>
                     </table>
@@ -49,11 +62,14 @@
                                 <tr>
                                     <td class="image-content"><img src="images/${book.id}.jpg"
                                                                    class="img img-responsive"></td>
-                                    <td class="text-content"><a class="link-content" href="/vazilon/book_page?id=${book.id}">${book.name}</a><h5>${book.description}</h5></td>
+                                    <td class="text-content"><a class="link-content"
+                                                                href="/vazilon/book_page?id=${book.id}">${book.name}</a>
+                                        <h5>${book.description}</h5></td>
                                     <td class="text-content">${book.author}</td>
                                     <td class="text-content">${book.price}рублей</td>
                                     <td><a class="btn btn-default" href="#" type="submit"><i
-                                            class="icon-search icon-time"></i>Купить</a></td>
+                                            class="icon-search icon-time"></i>Купить</a><button class="btn btn-default" id="${book.id}" type="submit"
+                                                                                                onclick="append(${book.id})"><fmt:message key="button.buy"/></button></td>
                                 </tr>
                             </c:if>
                         </c:forEach>
@@ -71,11 +87,13 @@
                                 <tr>
                                     <td class="image-content"><img src="images/${book.id}.jpg"
                                                                    class="img img-responsive"></td>
-                                    <td class="text-content"><a class="link-content" href="/vazilon/book_page?id=${book.id}">${book.name}</a><h5>${book.description}</h5></td>
+                                    <td class="text-content"><a class="link-content"
+                                                                href="/vazilon/book_page?id=${book.id}">${book.name}</a>
+                                        <h5>${book.description}</h5></td>
                                     <td class="text-content">${book.author}"</td>
                                     <td class="text-content">${book.price}рублей</td>
-                                    <td><a class="btn btn-default" href="#" role="button"><i
-                                            class="icon-search icon-time"></i>Купить</a></td>
+                                    <td><button class="btn btn-default" id="${book.id}" type="submit"
+                                                onclick="append(${book.id})"><fmt:message key="button.buy"/></button></td>
                                 </tr>
                             </c:if>
                         </c:forEach>
@@ -93,11 +111,13 @@
                                 <tr>
                                     <td class="image-content"><img src="images/${book.id}.jpg"
                                                                    class="img img-responsive"></td>
-                                    <td class="text-content"><a class="link-content" href="/vazilon/book_page?id=${book.id}">${book.name}</a><h5>${book.description}</h5></td>
+                                    <td class="text-content"><a class="link-content"
+                                                                href="/vazilon/book_page?id=${book.id}">${book.name}</a>
+                                        <h5>${book.description}</h5></td>
                                     <td class="text-content">${book.author}</td>
                                     <td class="text-content">${book.price} рублей</td>
-                                    <td><a class="btn btn-default" href="#" role="button"><i
-                                            class="icon-search icon-time"></i>Купить</a></td>
+                                    <td><button class="btn btn-default" id="${book.id}" type="submit"
+                                                onclick="append(${book.id})"><fmt:message key="button.buy"/></button></td>
                                 </tr>
                             </c:if>
                         </c:forEach>
@@ -115,10 +135,13 @@
                                 <tr>
                                     <td class="image-content"><img src="images/${book.id}.jpg"
                                                                    class="img img-responsive"></td>
-                                    <td class="text-content"><a class="link-content" href="/vazilon/book_page?id=${book.id}">${book.name}</a><h5>${book.description}</h5></td>
+                                    <td class="text-content"><a class="link-content"
+                                                                href="/vazilon/book_page?id=${book.id}">${book.name}</a>
+                                        <h5>${book.description}</h5></td>
                                     <td class="text-content">${book.author}</td>
                                     <td class="text-content">${book.price} рублей</td>
-                                    <td><a class="btn btn-default" href="#" role="button">Купить</a></td>
+                                    <td><button class="btn btn-default" id="${book.id}" type="submit"
+                                                onclick="append(${book.id})"><fmt:message key="button.buy"/></button></td>
                                 </tr>
                             </c:if>
                         </c:forEach>
@@ -136,11 +159,13 @@
                                 <tr>
                                     <td class="image-content"><img src="images/${book.id}.jpg"
                                                                    class="img img-responsive"></td>
-                                    <td class="text-content"><a class="link-content" href="/vazilon/book_page?id=${book.id}">${book.name}</a><h5>${book.description}</h5></td>
+                                    <td class="text-content"><a class="link-content"
+                                                                href="/vazilon/book_page?id=${book.id}">${book.name}</a>
+                                        <h5>${book.description}</h5></td>
                                     <td class="text-content">${book.author}</td>
                                     <td class="text-content">${book.price} рублей</td>
-                                    <td><a class="btn btn-default" href="#" role="button"><i
-                                            class="icon-search icon-time"></i>Купить</a></td>
+                                    <td><button class="btn btn-default" id="${book.id}" type="submit"
+                                                onclick="append(${book.id})"><fmt:message key="button.buy"/></button></td>
                                 </tr>
                             </c:if>
                         </c:forEach>
@@ -150,5 +175,15 @@
         </div>
     </div>
 </div>
+<script>
+    function append(value) {
+        $.ajax({
+            url: 'append?id=' + value,
+            success: function (data) {
+                alert(data);
+            }
+        });
+    }
+</script>
 </body>
 </html>

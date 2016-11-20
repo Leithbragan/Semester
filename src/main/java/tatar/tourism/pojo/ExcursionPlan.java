@@ -3,9 +3,6 @@ package tatar.tourism.pojo;
 import java.io.Serializable;
 import java.util.ArrayList;
 
-/**
- * Created by Ilya Evlampiev on 20.10.2015.
- */
 public class ExcursionPlan implements Serializable {
 
     private static final long serialVersionUID = 1L;

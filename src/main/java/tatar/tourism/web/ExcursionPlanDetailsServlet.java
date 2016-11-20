@@ -11,9 +11,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Created by Ilya Evlampiev on 07.11.2015.
- */
 @WebServlet("/excursionPlanDetails")
 public class ExcursionPlanDetailsServlet  extends HttpServlet {
 

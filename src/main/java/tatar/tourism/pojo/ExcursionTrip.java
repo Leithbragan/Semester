@@ -2,9 +2,6 @@ package tatar.tourism.pojo;
 
 import java.util.Date;
 
-/**
- * Created by Ilya Evlampiev on 20.10.2015.
- */
 public class ExcursionTrip {
     private int databaseId;
 

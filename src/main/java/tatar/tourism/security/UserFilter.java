@@ -6,9 +6,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Created by Ilya Evlampiev on 26.10.2015.
- */
 @WebFilter(filterName = "userFilter",urlPatterns = {"/users","/users/*","/excursionPlans","/excursionTrips","/deleteExcursion"})
 public class UserFilter implements Filter {
 

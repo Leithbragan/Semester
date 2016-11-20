@@ -12,9 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-/**
- * Created by Ilya Evlampiev on 19.10.2015.
- */
 @WebServlet("/checkusername")
 public class CheckUsernameServlet extends HttpServlet {
     static Logger log = Logger.getLogger(LoginServlet.class);

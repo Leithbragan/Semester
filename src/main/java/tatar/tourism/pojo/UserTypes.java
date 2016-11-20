@@ -7,7 +7,8 @@ public enum UserTypes {
     TRAVELAGENCY("TRAVELAGENCY"),
     BUSDRIVER("BUSDRIVER"),
     ADMIN("ADMIN"),
-    BUYER("BUYER")
+    BUYER("BUYER"),
+    SELLER("SELLER")
     ;
 
     private final String text;

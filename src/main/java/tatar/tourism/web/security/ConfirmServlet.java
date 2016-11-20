@@ -16,9 +16,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Locale;
 
-/**
- * Created by Ilya Evlampiev on 02.11.2015.
- */
 @WebServlet("/confirm")
 public class ConfirmServlet extends HttpServlet {
     static Logger log = Logger.getLogger(ConfirmServlet.class);

@@ -1,8 +1,5 @@
 package tatar.tourism.pojo;
 
-/**
- * Created by Ilya Evlampiev on 02.11.2015.
- */
 public class Excursion {
     private int databaseId;
     private User user;

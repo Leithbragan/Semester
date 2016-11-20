@@ -18,9 +18,6 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-/**
- * Created by Ilya Evlampiev on 02.11.2015.
- */
 @WebServlet("/excursions")
 public class ExcursionsServlet extends HttpServlet {
 

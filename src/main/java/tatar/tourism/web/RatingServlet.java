@@ -18,9 +18,6 @@ import java.io.PrintWriter;
 import java.util.Enumeration;
 import java.util.List;
 
-/**
- * Created by Ilya Evlampiev on 06.11.2015.
- */
 @WebServlet("/rating")
 public class RatingServlet extends HttpServlet {
     static Logger log = Logger.getLogger(RatingServlet.class);

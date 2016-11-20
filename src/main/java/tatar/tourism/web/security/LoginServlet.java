@@ -13,9 +13,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Locale;
 
-/**
- * Created by Ilya Evlampiev on 26.10.2015.
- */
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
     static Logger log = Logger.getLogger(LoginServlet.class);

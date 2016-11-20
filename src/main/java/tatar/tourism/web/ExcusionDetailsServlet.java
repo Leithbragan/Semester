@@ -16,10 +16,6 @@ import java.io.IOException;
 import java.sql.SQLException;
 import java.util.List;
 
-/**
- * Created by Ilya Evlampiev on 06.11.2015.
- */
-
 @WebServlet("/excursionDetails")
 public class ExcusionDetailsServlet extends HttpServlet {
 

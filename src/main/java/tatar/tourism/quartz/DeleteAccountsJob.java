@@ -7,9 +7,6 @@ import org.quartz.JobExecutionException;
 import tatar.tourism.dao.DaoFactory;
 import tatar.tourism.dao.TokenDao;
 
-/**
- * Created by Ilya Evlampiev on 02.11.2015.
- */
 public class DeleteAccountsJob implements Job {
     static Logger log = Logger.getLogger(DeleteAccountsJob.class);
     static TokenDao tokenDao = DaoFactory.getDAOFactory(1).getTokenDao();

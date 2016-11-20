@@ -15,9 +15,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.LinkedList;
 
-/**
- * Created by Ilya Evlampiev on 07.11.2015.
- */
 @WebServlet("/point")
 public class PointServlet extends HttpServlet {
 

@@ -2,9 +2,6 @@ package tatar.tourism.pojo;
 
 import java.util.List;
 
-/**
- * Created by Ilya Evlampiev on 20.10.2015.
- */
 public class Guide extends BusDriver {
     List<ExcursionTrip> plannedLeadedExcursions;
     List<ExcursionPlan> managedExcursions;

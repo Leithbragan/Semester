@@ -6,9 +6,6 @@ import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
-/**
- * Created by Ilya Evlampiev on 14.10.2015.
- */
  public abstract class User {
 
     private static final long serialVersionUID = 1L;

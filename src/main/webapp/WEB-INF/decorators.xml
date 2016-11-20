@@ -9,6 +9,7 @@
         <pattern>/rating</pattern>
         <pattern>/index.html</pattern>
         <pattern>/webjars/*</pattern>
+        <pattern>/append*</pattern>
     </excludes>
 
     <decorator name="servletOutputDecorator" page="jspDec.jsp">

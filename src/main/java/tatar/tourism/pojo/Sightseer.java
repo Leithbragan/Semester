@@ -3,9 +3,6 @@ package tatar.tourism.pojo;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Ilya Evlampiev on 20.10.2015.
- */
 public class Sightseer extends User {
     List<ExcursionPlan> desiredExcursions;
     List<ExcursionTrip> plannedExcursions = new ArrayList<ExcursionTrip>() {

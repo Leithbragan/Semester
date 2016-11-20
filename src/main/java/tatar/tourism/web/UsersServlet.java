@@ -13,9 +13,6 @@ import tatar.tourism.dao.UserDao;
 import org.apache.log4j.Logger;
 import tatar.tourism.pojo.User;
 
-/**
- * Created by Ilya Evlampiev on 26.10.2015.
- */
 @WebServlet("/users")
 public class UsersServlet extends HttpServlet {
     static Logger log = Logger.getLogger(UsersServlet.class);

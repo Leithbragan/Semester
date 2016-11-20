@@ -17,9 +17,6 @@ import java.sql.SQLException;
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-/**
- * Created by Ilya Evlampiev on 03.11.2015.
- */
 @WebServlet("/deleteExcursion")
 public class DeleteExcursionServlet extends HttpServlet {
 

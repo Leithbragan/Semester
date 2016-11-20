@@ -62,6 +62,7 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="/vazilon/" class="navbar-brand"><fmt:message key="title.decor"/></a></li>
                     <li class=""><a href="/vazilon/library"><fmt:message key="menu.shop"/></a></li>
+                    <li class=""><a href="/vazilon/basket"><fmt:message key="menu.buy"/></a></li>
                     <c:if test="${user.isGuide()}">
                         <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><fmt:message
                                 key="menu.guide"/><span
